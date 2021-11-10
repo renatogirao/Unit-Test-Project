@@ -17,6 +17,7 @@
 		57D53814273C6ADB004F3C8C /* CursoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53813273C6ADB004F3C8C /* CursoUITestsLaunchTests.swift */; };
 		57D53821273C6B42004F3C8C /* CursoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53807273C6ADB004F3C8C /* CursoTests.swift */; };
 		57D53823273C6DDB004F3C8C /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53822273C6DDB004F3C8C /* StringUtilsSpec.swift */; };
+		57D53825273C70A5004F3C8C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53824273C70A5004F3C8C /* StringUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		57D53811273C6ADB004F3C8C /* CursoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoUITests.swift; sourceTree = "<group>"; };
 		57D53813273C6ADB004F3C8C /* CursoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		57D53822273C6DDB004F3C8C /* StringUtilsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtilsSpec.swift; sourceTree = "<group>"; };
+		57D53824273C70A5004F3C8C /* StringUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				57D53822273C6DDB004F3C8C /* StringUtilsSpec.swift */,
+				57D53824273C70A5004F3C8C /* StringUtils.swift */,
 				57D537EF273C6AD9004F3C8C /* Curso */,
 				57D53806273C6ADB004F3C8C /* CursoTests */,
 				57D53810273C6ADB004F3C8C /* CursoUITests */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D53825273C70A5004F3C8C /* StringUtils.swift in Sources */,
 				57D53821273C6B42004F3C8C /* CursoTests.swift in Sources */,
 				57D53823273C6DDB004F3C8C /* StringUtilsSpec.swift in Sources */,
 			);
