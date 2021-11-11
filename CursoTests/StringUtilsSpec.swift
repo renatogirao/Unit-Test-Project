@@ -11,10 +11,10 @@ import XCTest
 class StringUtilsSpec: XCTestCase {
     
     func testIsValidEmail() {
-        let email = "curso"
+        let email = "curso@gmail.com"
         let value = email.isValidEmail()
         
-        XCTAssert(value == true)
+        XCTAssertTrue(value, "não é um email válido")
     }
 
 }

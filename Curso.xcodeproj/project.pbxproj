@@ -17,7 +17,7 @@
 		57D53814273C6ADB004F3C8C /* CursoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53813273C6ADB004F3C8C /* CursoUITestsLaunchTests.swift */; };
 		57D53821273C6B42004F3C8C /* CursoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53807273C6ADB004F3C8C /* CursoTests.swift */; };
 		57D53823273C6DDB004F3C8C /* StringUtilsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53822273C6DDB004F3C8C /* StringUtilsSpec.swift */; };
-		57D53825273C70A5004F3C8C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53824273C70A5004F3C8C /* StringUtils.swift */; };
+		57D53826273CD79D004F3C8C /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D53824273C70A5004F3C8C /* StringUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +83,6 @@
 		57D537E4273C6AD9004F3C8C = {
 			isa = PBXGroup;
 			children = (
-				57D53822273C6DDB004F3C8C /* StringUtilsSpec.swift */,
-				57D53824273C70A5004F3C8C /* StringUtils.swift */,
 				57D537EF273C6AD9004F3C8C /* Curso */,
 				57D53806273C6ADB004F3C8C /* CursoTests */,
 				57D53810273C6ADB004F3C8C /* CursoUITests */,
@@ -105,6 +103,7 @@
 		57D537EF273C6AD9004F3C8C /* Curso */ = {
 			isa = PBXGroup;
 			children = (
+				57D53824273C70A5004F3C8C /* StringUtils.swift */,
 				57D537F0273C6AD9004F3C8C /* AppDelegate.swift */,
 				57D537F2273C6AD9004F3C8C /* SceneDelegate.swift */,
 				57D537F4273C6AD9004F3C8C /* ViewController.swift */,
@@ -119,6 +118,7 @@
 		57D53806273C6ADB004F3C8C /* CursoTests */ = {
 			isa = PBXGroup;
 			children = (
+				57D53822273C6DDB004F3C8C /* StringUtilsSpec.swift */,
 				57D53807273C6ADB004F3C8C /* CursoTests.swift */,
 			);
 			path = CursoTests;
@@ -264,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D53826273CD79D004F3C8C /* StringUtils.swift in Sources */,
 				57D537F5273C6AD9004F3C8C /* ViewController.swift in Sources */,
 				57D537F1273C6AD9004F3C8C /* AppDelegate.swift in Sources */,
 				57D537F3273C6AD9004F3C8C /* SceneDelegate.swift in Sources */,
@@ -274,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D53825273C70A5004F3C8C /* StringUtils.swift in Sources */,
 				57D53821273C6B42004F3C8C /* CursoTests.swift in Sources */,
 				57D53823273C6DDB004F3C8C /* StringUtilsSpec.swift in Sources */,
 			);
